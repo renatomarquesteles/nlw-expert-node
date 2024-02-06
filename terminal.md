@@ -16,3 +16,6 @@ docker logs 51244da3a16c
 
 npm i -D prisma
 npx prisma init
+
+npx prisma migrate dev
+npx prisma studio
