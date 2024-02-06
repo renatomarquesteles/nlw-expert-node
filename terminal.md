@@ -13,3 +13,6 @@ docker compose version
 docker compose up -d
 docker ps
 docker logs 51244da3a16c
+
+npm i -D prisma
+npx prisma init
