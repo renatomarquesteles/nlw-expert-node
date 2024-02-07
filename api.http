@@ -3,5 +3,6 @@ POST http://localhost:3333/polls
 Content-Type: application/json
 
 {
-  "title": "An amazing poll"
+  "title": "What's the best Node.js framework?",
+  "options": ["Express", "Fastify", "NestJS", "HapiJS"]
 }
