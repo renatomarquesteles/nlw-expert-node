@@ -6,3 +6,8 @@ Content-Type: application/json
   "title": "What's the best Node.js framework?",
   "options": ["Express", "Fastify", "NestJS", "HapiJS"]
 }
+
+###
+
+// Get poll
+GET http://localhost:3333/polls/4e09d7ba-e8d2-47bb-9f8c-b34622e74da3
