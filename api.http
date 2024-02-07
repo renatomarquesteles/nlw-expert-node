@@ -11,3 +11,13 @@ Content-Type: application/json
 
 // Get poll
 GET http://localhost:3333/polls/4e09d7ba-e8d2-47bb-9f8c-b34622e74da3
+
+###
+
+// Vote on poll
+POST http://localhost:3333/polls/4e09d7ba-e8d2-47bb-9f8c-b34622e74da3/votes
+Content-Type: application/json
+
+{
+  "pollOptionId": "acb2db24-8946-4c1d-9194-a7d1ad2f4962"
+}
