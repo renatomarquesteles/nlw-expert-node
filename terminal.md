@@ -23,3 +23,5 @@ npx prisma studio
 npm i zod
 
 npm i @fastify/cookie
+
+npm i ioredis
