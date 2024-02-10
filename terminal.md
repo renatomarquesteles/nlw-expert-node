@@ -25,3 +25,5 @@ npm i zod
 npm i @fastify/cookie
 
 npm i ioredis
+
+npm i @fastify/websocket
